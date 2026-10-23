@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background: linear-gradient(135deg, #101827, #243b55, #334e68);
+    color: #1e293b;
+}
+
+.container {
+    width: 100%;
+    max-width: 460px;
+    background: #ffffff;
+    padding: 36px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.subtitle {
+    color: #64748b;
+    margin: 10px 0 28px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 30px;
+    color: #172554;
+}
+
+label {
+    display: block;
+    margin: 18px 0 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+button {
+    width: 100%;
+    margin-top: 26px;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.result {
+    margin-top: 26px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+}
+
+.result h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.bmi-value {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin: 8px 0;
+}
+
+.category {
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.error {
+    margin-top: 18px;
+    color: #dc2626;
+    font-size: 14px;
+}
+
+.note {
+    margin-top: 22px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #64748b;
+}
+
+.bmi-guide {
+    margin-top: 26px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.bmi-guide h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+    color: #172554;
+}
+
+.guide-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background: #f8fafc;
+    font-size: 13px;
+}
+
+.guide-row span:last-child {
+    font-weight: 600;
+    white-space: nowrap;
+    color: #334155;
+}
+
+.reset-button {
+    margin-top: 10px;
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.reset-button:hover {
+    background: #cbd5e1;
+}
+
+
+.interpretation {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #475569;
+}
